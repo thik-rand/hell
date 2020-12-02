@@ -12,3 +12,7 @@ distclean: clean
 
 uninstall:
 	-rm -f $(DESDIR)$(prefix)/bin/hell
+	
+check:
+	-./hell
+distcheck:
