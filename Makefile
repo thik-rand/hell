@@ -15,4 +15,4 @@ uninstall:
 	
 check:
 	-./hell
-distcheck:
+distcheck: check
